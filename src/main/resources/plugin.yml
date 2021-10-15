@@ -1,0 +1,12 @@
+name: RainingBlocks
+version: '${project.version}'
+main: com.giornosmp.rainingblocks.RainingBlocks
+api-version: 1.17
+authors: [ Giorno420 ]
+description: Rains random blocks around you!
+website: https://giorno.is-a-good.dev
+commands:
+  rainingblocks:
+    usage: /<command>
+  deez:
+    usage: /<command>
