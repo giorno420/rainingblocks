@@ -2,7 +2,6 @@ package com.giornosmp.rainingblocks;
 
 import com.giornosmp.rainingblocks.commands.BlockDrop;
 import com.giornosmp.rainingblocks.commands.BlockDropTabComplete;
-import com.giornosmp.rainingblocks.commands.TestCommand;
 import com.giornosmp.rainingblocks.gamestates.BlockStage;
 import com.giornosmp.rainingblocks.gamestates.State;
 import org.bukkit.Bukkit;
@@ -37,7 +36,6 @@ public final class RainingBlocks extends JavaPlugin {
         setblockStage(BlockStage.STAGE1);
 
         Objects.requireNonNull(this.getCommand("rainingblocks")).setExecutor(new BlockDrop(this));
-        this.getCommand("deez").setExecutor(new TestCommand());
         Objects.requireNonNull(this.getCommand("rainingblocks")).setTabCompleter(new BlockDropTabComplete());
     }
 

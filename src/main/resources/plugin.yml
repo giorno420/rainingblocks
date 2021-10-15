@@ -8,5 +8,3 @@ website: https://giorno.is-a-good.dev
 commands:
   rainingblocks:
     usage: /<command>
-  deez:
-    usage: /<command>
